@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body > header {
+  background-color: #2f3640;
+  padding: 16px 0;
+  color: #f5f6fa;
+}
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header li {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 15px;
+}
+header li a {
+  color: #f5f6fa;
+  text-decoration: none;
+}
+footer {
+  background-color: #2f3640;
+  padding: 16px 0;
+  color: #f5f6fa;
+}
+footer .container_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+footer li a {
+  color: #f5f6fa;
+  text-decoration: none;
+}
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.articles article img {
+  /*height: 100px;*/
+  width: 100%;
+  border-radius: 10px;
+}
+div {
+  display: block;
+}
+.categoryCard {
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.categoryCard_technology {
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.categoryCard_entertainment {
+  border: 2px solid transparent;
+  border-radius: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.categoryCard_entertainment:hover {
+  border-color: white;
+}
+
+.categoryCard_technology:hover {
+  border-color: white;
+}
+.categoryCard:hover {
+  border-color: black;
+}
+
+.articles article {
+  width: 30%;
+}
+section {
+  padding: 16px 0;
+}
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+.articles article a {
+  background-color: #2f3640;
+  color: #fff;
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.articles article a:hover {
+  text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+  font-size: 24px;
+}
+section h2 {
+  font-size: 32px;
+}
+#sports {
+  background-color: #efe6dd;
+}
+
+#economy {
+  background-color: #f3dfa2;
+  color: #2f3640;
+}
+
+#entertainment {
+  background-color: #bb4430;
+  color: white;
+}
+
+#technology {
+  background-color: #231f20;
+  color: lightgray;
+}
+#technology .articles article a {
+  background-color: lightgray;
+  color: #2f3640;
+}
